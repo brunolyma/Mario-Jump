@@ -9,14 +9,14 @@
 }
 
 .game-board {
-  width: 80vw;
+  width: 100%;
   min-width: 76.8rem;
   height: 50rem;
 
   background-image: linear-gradient(to top, transparent 10%, rgb(44, 157, 255));
   margin: 0 auto;
 
-  border: 0.1rem solid #333;
+  border-bottom: 1.5rem solid green;
 
   position: relative;
 

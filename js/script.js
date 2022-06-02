@@ -4,10 +4,9 @@ const clouds = document.querySelector(".clouds")
 let gameOver = false
 
 document.addEventListener("keypress", start)
-document.addEventListener("click", start)
+document.addEventListener("touchstart", start)
 
 function start(event) {
-  {
     if (gameOver == false) {
       if (event.key == " " || event.pointerType == 'touch') {
         jump()
@@ -16,7 +15,6 @@ function start(event) {
     } else {
       location.reload()
     }
-  }
 }
 
 const loop = setInterval(() => {
