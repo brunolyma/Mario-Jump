@@ -2,6 +2,11 @@
   font-size: 62.5%; /* 1rem=10px */
 }
 
+@font-face {
+  font-family: Mario Bros;
+  src: url(super-mario-bros.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,6 +59,23 @@
   height: 8rem;
 
   animation: pipe-animation 2s infinite linear; 
+}
+
+.score {
+  display: block;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+
+  padding: 3rem;
+  margin-right: 2rem;
+
+  font-family: 'Mario Bros';
+  font-size: 2.5rem;
+
+  color: #ffd559;
+  text-shadow: .1rem .1rem .2rem black;
+
 }
 
 @keyframes clouds-animation {
